@@ -1,7 +1,10 @@
 name: hogehoge
 
 on:
-  push
+  push:
+    branches:
+      - main
+      - hoge
   pull_request:
     types: [ opened, synchronize, reopened ]
 
